@@ -85,3 +85,30 @@ body{
     background-clip: text;
     animation: flowingGradient 5s linear infinite;
 }
+.signup{
+    background-color: gray;
+    border-radius: 10px;
+}
+.project1{
+    background-color: gray;
+    border-radius: 10px;
+    width: 350px;
+    padding: 10px;
+}
+.project2{
+    background-color: gray;
+    border-radius: 10px;
+    width: 350px;
+    padding: 10px;
+}
+.project1:hover{
+    scale: 1.1;
+}
+.project2:hover{
+    scale: 1.1;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
